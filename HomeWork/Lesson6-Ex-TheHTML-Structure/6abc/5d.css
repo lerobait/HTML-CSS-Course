@@ -1,0 +1,26 @@
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.title-text {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.description-text {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.link-text {
+  font-size: 18px;
+  text-align: center;
+  color: blue;
+  margin-top: 20px;
+}

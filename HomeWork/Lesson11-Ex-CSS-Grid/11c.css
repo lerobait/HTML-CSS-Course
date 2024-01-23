@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.col1 {
+  background-color: lightpink;
+}
+
+.col2 {
+  background-color: lightpink;
+}
+
+.col3 {
+  background-color: lightpink;
+}
+
+.col4 {
+  background-color: lightpink;
+}

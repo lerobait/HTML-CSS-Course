@@ -1,0 +1,77 @@
+div {
+  font-family: Arial;
+}
+
+.window {
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 376px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.inbox {
+  font-size: 15px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.user-picture {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.info {
+  display: inline-block;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.time {
+  font-size: 14px;
+  color: gray;
+}
+
+.subject {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.text {
+  font-size: 14px;
+  color: gray;
+  width: 300px;
+}

@@ -1,0 +1,24 @@
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+
+.red {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: lightpink;
+  width: 100px;
+}
+
+.item1 {
+  background-color: black;
+  color: white;
+}
+
+.blue {
+  background-color: lightblue;
+  width: 200px;
+}

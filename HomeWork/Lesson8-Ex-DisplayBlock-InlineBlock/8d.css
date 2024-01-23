@@ -1,0 +1,42 @@
+.first-name-input,
+.last-name-input {
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 115px;
+}
+
+.email-input {
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 6px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 270px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.sign-up-button {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
+  cursor: pointer;
+}

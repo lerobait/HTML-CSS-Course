@@ -1,0 +1,33 @@
+.div {
+  font-family: Arial;
+}
+
+.container {
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.notifications {
+  background-color: blue;
+  color: white;
+  border-radius: 11px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}

@@ -1,0 +1,26 @@
+body {
+  height: 3000px;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.t-shirt-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

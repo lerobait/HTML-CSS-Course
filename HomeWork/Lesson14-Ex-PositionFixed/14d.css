@@ -1,0 +1,56 @@
+body {
+  height: 3000px;
+}
+
+.sidebar {
+  position: fixed;
+
+  background-color: green;
+  color: white;
+
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.card {
+  background-color: white;
+  width: 400px;
+  border-radius: 7px;
+  padding-top: 13px;
+  padding-left: 12px;
+  padding-bottom: 13px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.modal-content {
+  margin-bottom: 10px;
+}
+
+button {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+}

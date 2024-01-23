@@ -1,0 +1,61 @@
+.user-card {
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+  width: 170px;
+  margin-right: 10px;
+}
+
+.avatar {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.friends {
+  width: 170px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.profile-picture {
+  height: 28px;
+  width: 28px;
+  object-fit: cover;
+  border-radius: 14px;
+  vertical-align: middle;
+}
+
+.user-info {
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.add-button {
+  background-color: rgb(24, 119, 242);
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}

@@ -1,0 +1,20 @@
+p {
+	font-family: Monserrat;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.main-title {
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.main-text {
+	font-size: 20px;
+}
+
+.underline-text {
+	text-decoration: underline;
+}

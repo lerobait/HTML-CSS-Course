@@ -1,0 +1,49 @@
+body {
+  height: 3000px;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.t-shirt-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: rgba(62, 97, 194, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-button {
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

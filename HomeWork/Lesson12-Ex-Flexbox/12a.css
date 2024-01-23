@@ -1,0 +1,14 @@
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+.blue {
+  width: 200px;
+  background-color: skyblue;
+}
+
+.pink {
+  width: 75px;
+  background-color: lightpink;
+}
